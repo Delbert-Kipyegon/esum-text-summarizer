@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**Project Name:** eSum Text Summarizer
 
-## Getting Started
+**Introduction:**
 
-First, run the development server:
+eSum Text Summarizer is a web application designed to simplify the process of summarizing large text documents. Leveraging advanced natural language processing techniques, eSum allows users to input extensive text content and receive concise summaries quickly and efficiently.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Links:**
+
+- [Deployed Site](https://text-summarizer-main.vercel.app/)
+
+- **Github Links:**
+- [Delbert Kipyegon](https://www.linkedin.com/in/delbert-kipyegon-15b2b61ab/)
+- [Silvia Irware](https://www.linkedin.com/in/silvia-irware-80a636276/)
+
+**Installation:**
+
+To install and run the eSum Text Summarizer locally, follow these steps:
+
+1. Clone the repository to your local machine:
+
+```
+git clone https://github.com/Delbert-Kipyegon/text_summarizer-main
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+cd eSum-Text-Summarizer
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install the dependencies:
 
-## Learn More
+```
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Access the application in your browser at `http://localhost:3000`.
 
-## Deploy on Vercel
+**Usage:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Once the application is running, follow these steps to summarize text:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Paste your document content into the provided text area.
+2. Click the "Submit" button to generate a summary.
+3. View the summarized text below the input area.
+
+**Contributing:**
+
+Contributions to the eSum Text Summarizer project are welcome! To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/improvement`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/improvement`).
+6. Create a new Pull Request.
+
+**App Screenshots:**
+
+![alt text](/img/image.png)
+![alt text](/img/image-1.png)
+![alt text](/img/image-2.png)
+![alt text](/img/image-3.png)
